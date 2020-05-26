@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Huckle Buckle BeanBag</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+<body>
+  <h1>Huckle Buckle Beanstalk</h1>
+    <form id="guess-form">
+        <label for="guess">I have a number between 1 and 100. Try to guess it.</label>
+        <input type="text" name="userGuess" id="userGuess">
+        <div class="error off">Make sure your guess is a number between 1 and 100.</div>
+        <input type="button" value="Guess" onClick="numberInitalized();document.getElementById('userGuess').value = ''">
+        <button id="reset" class="off" onclick="location.reload(true)">Play again</button>
+    </form>
+    <div class="response off">
+        <h2 id="guess-vs-number"></h2>
+        <h3 id="guess-vs-guess"></h3>
+        <p id="num-guesses"></p>
+    </div>    
+
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+
+
+</body>
+</html>

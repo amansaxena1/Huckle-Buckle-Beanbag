@@ -1,2 +1,2 @@
-# Huckle-Buckle-Beanstalk
-A simple implementation of Huckle Buckle Beanstalk in JavaScript. Guess the random number between 1 and 100.
+# Huckle-Buckle-Beanbag
+A simple implementation of Huckle Buckle Beanbag in JavaScript. Guess the random number between 1 and 100.

@@ -8,4 +8,4 @@ css, html, java script
 we created a Huckle-Buckle-Beanbag program in which computer choose a number itself and the user have to guess the number in the minimum tries. When the user input the number, system tells the user it is hotter or cooler as the number is less or greater then the number chosen by the computer, and if the user gets the right number computer diaplays the total number of tries taken by user.
 
 # Try this website
-https://nishantjawla.github.io/Huckle-Buckle-Beanbag/
+https://amansaxena1.github.io/Huckle-Buckle-Beanbag/

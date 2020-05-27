@@ -1,20 +1,35 @@
-<!doctype html>
+<!DOCTYPE>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Huckle Buckle BeanBag</title>
-<link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
 <body>
-  <h1>Huckle Buckle Beanstalk</h1>
-    <form id="guess-form">
-        <label for="guess">I have a number between 1 and 100. Try to guess it.</label>
-        <input type="text" name="userGuess" id="userGuess">
-        <div class="error off">Make sure your guess is a number between 1 and 100.</div>
-        <input type="button" value="Guess" onClick="numberInitalized();document.getElementById('userGuess').value = ''">
-        <button id="reset" class="off" onclick="location.reload(true)">Play again</button>
-    </form>
-    <div class="response off">
+    <div class=heading1>
+        <h1>Huckle Buckle BeanBag</h1>
+    </div>
+    <div class=heading2>
+        <h2>I have a number between 1 and 100.</h2>
+        <h2>Try to guess it.</h2>
+    </div>
+    <div class="search-box" id="guess-form">
+        <label for="guess"></label>
+        <input class="search-txt" type="int" name="userGuess" placeholder="ENTER A NUMBER" id="userGuess">
+        <a class="search-btn" onClick="numberInitalized();document.getElementById('userGuess').value = ''">
+        <i class="fas fa-sign-in-alt"></i>
+        </a>
+            <div class="error off"></div>
+    </div>
+    
+    <div class="search-box1">
+        <a class="search-btn1" onclick="location.reload(true)">
+        <i class="fas fa-redo-alt"></i>
+        </a>
+    </div>
+
+    <div class="response_off">
         <h2 id="guess-vs-number"></h2>
         <h3 id="guess-vs-guess"></h3>
         <p id="num-guesses"></p>
@@ -22,6 +37,14 @@
 
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
+<div id="hotairballoon1">
+        <img src="images/balloon.png" class="balloon1"></div>
+    <div id="hotairballoon2">
+        <img src="images/balloon.png" class="balloon2"></div>
+    <div id="hotairballoon3">
+        <img src="images/balloon.png" class="balloon3"></div>
+    <div id="hotairballoon4">
+        <img src="images/balloon.png" class="balloon4"></div>
 
 
 </body>

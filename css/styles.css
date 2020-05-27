@@ -1,0 +1,166 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	height: 100vh;
+	background: linear-gradient(#01C3DD,#fff);
+	overflow: hidden;
+	position: relative;
+}
+.search-box{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #2f3640;
+	height: 40px;
+	border-radius: 30px;
+	padding: 5px;
+}
+.search-box:hover > .search-txt{
+	width: 200px;
+	padding: 0 10px;
+	text-decoration: solid;
+	font-size: 18px;
+	font-family: cursive;
+}
+.search-box:hover > .search-btn{
+	background: white;
+	color: #2F4F4F;
+	text-align: center;
+}
+.search-btn{
+	color: white;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+}
+.search-txt{
+	border: none;
+	background: none;
+	outline: none;
+	float: center;
+	padding: 0;
+	color: white;
+	font-size: 13px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+}
+#hotairballoon1{
+	position: absolute;
+	width: 50px;
+	bottom: -450px;
+	z-index: 2;
+	animation: hotairballoon1 8s linear infinite;
+}
+@keyframes hotairballoon1{
+	0%{
+		bottom: -450px;
+	}
+	100%{
+		bottom: 110%;
+	}
+}
+#hotairballoon2{
+	position: absolute;
+	width: 50px;
+	bottom: -450px;
+	left: 1200px;
+	z-index: 2;
+	animation: hotairballoon2 7s linear infinite;
+}
+@keyframes hotairballoon2{
+	0%{
+		bottom: -450px;
+	}
+	100%{
+		bottom: 110%;
+	}
+}
+#hotairballoon3{
+	position: absolute;
+	width: 50px;
+	bottom: -450px;
+	left: 200px;
+	z-index: 2;
+	animation: hotairballoon3 9s linear infinite;
+}
+@keyframes hotairballoon3{
+	0%{
+		bottom: -450px;
+	}
+	100%{
+		bottom: 110%;
+	}
+}
+#hotairballoon4{
+	position: absolute;
+	width: 50px;
+	bottom: -450px;
+	left: 1000px;
+	z-index: 2;
+	animation: hotairballoon4 10s linear infinite;
+}
+@keyframes hotairballoon4{
+	0%{
+		bottom: -450px;
+	}
+	100%{
+		bottom: 110%;
+	}
+}
+.search-box1{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #2f3640;
+	height: 40px;
+	border-radius: 30px;
+	padding: 5px;
+}
+.search-box1:hover > .search-txt1{
+	width: 200px;
+	padding: 0 6px;
+}
+.search-box1:hover > .search-btn1{
+	background: white;
+	color: #2F4F4F;
+}
+.search-btn1{
+	color: white;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+}
+.heading1{
+	font-family: cursive;
+	color: #F5F5F5;
+	text-align: center;
+	font-size: 25px;
+}
+.heading2{
+	font-family: cursive;
+	color: #F5F5F5;
+	text-align: center;
+	font-size: 25px;
+}
+.response_off{
+	font-family: cursive;
+	color: #F5F5F5;
+	text-align: center;
+	font-size: 25px;
+}
